@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title> Generating a scrolling status Bar </title>
+ 
+  <script language="Javascript" type="text/javascript">
+  <!-- Hide script from older browsers
+  myMsg = "I am a Javascript scrolling status bar Junkie - I just cant stop ..."
+  i = 0
+  function scrollMsg() {
+  window.status = myMsg.substring
+  (i,myMsg.length) + myMsg.
+  substring(0,i)
+  if (i < myMsg.length) {
+  i++
+  }
+  else {
+       i = 0 
+  }
+  setTimeout("scrollMsg()",55)
+  }
+  //End hiding script from older browsers -->
+  </script>
+  </head>
+  <h1> Let the scripting Begin...</h1>
+  <hr>
+  <body bgcolor="#FFFFFF" onload="scrollMsg()">
+  <h2>I 'm generating a web page with a scrolling status bar message.<br/>
+  I realize that most professional web developer consider this quite cheesy and amateurish.<br/>
+  However, I 'm learning how to do it in case my customers want one!</h2>
+  </body>
+  </html>

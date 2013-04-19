@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+function greetGuest() {
+var myName = prompt("What is your name?","");
+if ((myName == "") || (myName == null)){
+alert("you do know your name don't you?");
+}
+else { alert("Welcome " + myName + "!");
+ }
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="Click to greet" onClick="greetGuest()">
+</form>
+</body>
+</html>

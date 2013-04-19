@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+function greetChef() {
+var haveCookbook = prompt("Do you have a cookbook?","");
+var chiliRecipe = prompt("Do you have a chili recipe?","");
+var haveWeb = prompt("Do you have internet access?","");
+if (haveCookbook =="yes")
+{
+     if (chiliRecipe =="yes") 
+	 {
+         alert("Found a recipe!");
+     }
+     else { 
+           alert("have a cookbook but no recipe");
+          }
+    }
+   else { 
+      if (haveWeb =="yes") 
+	  {
+        alert("Find a recipe on the internet");
+      }
+     else { 
+      alert("You need a better cookbook");
+     }
+    }
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="Greet Chef" onClick="greetChef()">
+</form>
+</body>
+</html>
